@@ -1,0 +1,60 @@
+.card-dribble {
+  width: 250px;
+}
+
+.card-white {
+  background: white;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(200,200,200,0.3);
+  border-radius: 2px;
+}
+
+.card-white .list-inline {
+  text-align: right;
+  color: #B0B0B0;
+  margin-top: 10px;
+}
+
+.card-white li {
+  margin-left: 5px;
+}
+
+.card-image {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image .btn {
+  /*display: inline-block;*/
+  margin: 10px;
+  display: none;
+}
+
+.card-white:hover .btn {
+  display: inline-block;
+}
+
+.card-user {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.card-user .avatar {
+  margin-right: 5px;
+}
+
+.card-user a {
+  color: grey;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards .card-dribble {
+  margin-bottom: 20px;
+}
